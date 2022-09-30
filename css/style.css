@@ -1,0 +1,144 @@
+html {
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+body {
+		background-color: #264653;
+	}
+
+header{
+	position: absolute;
+	margin-bottom: 10px;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	height: 200px;
+	background-color: lightblue;
+}
+
+
+
+h2{
+	margin-right: 300px;
+	margin-left: 20px;
+	font-size: 22px;
+
+}
+
+h1 {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	right: 50px;
+	top: 41px;
+	margin: 10px;
+	text-align: right;
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	
+
+	color: #000000;
+	}
+	
+.h1_bottom{
+	top: 10px;
+	text-align: center;
+	
+}
+
+#menu{
+	position: absolute;
+	top: 0;
+	left:0px;
+	width: 230px;
+	height: 100%;
+	background-color: #006c78;
+	margin-top: 200px;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	right:0px;
+	width: 85%;
+	height: 200px;
+	background-color: lightblue;
+}
+
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+}
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+
+#menu li a, #menu li span{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+     
+#menu li a{
+        
+	
+	color: #FFF;
+}
+     
+.right_text{
+	position: absolute;
+	top: 0;
+	right:0px;
+	width: 250px;
+	height: 100%;
+	background-color: #0265a2;
+	margin-top: 200px;
+	padding: 10px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 22px;
+
+}
+
+.three_text{
+	left:15%;
+	width: 980px;
+	height: 100%;
+	background-color: aliceblue;
+	padding-left: 50px;
+}
+
+.five_text{
+	margin-top: 30%;
+	background-color: rgb(158, 179, 196);
+}
+
+.page_three_link{
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	right: 45%;
+	top: 20px;
+	margin: 10px;
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 50px;
+	
+
+	color: #810202;
+}
+
+.flex-container{
+	display: flex;
+	background-color: DodgerBlue;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+}
